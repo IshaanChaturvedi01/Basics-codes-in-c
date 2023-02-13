@@ -1,0 +1,12 @@
+#include<stdio.h>
+double cube(double num){
+   // double result=num*num*num;
+    //return result;
+    //OR//
+    return num*num*num;
+    printf("sadf");//this line will not get executed
+}
+int main(){
+    printf("Answer: %f",cube(3.1));
+    return 0;
+}
