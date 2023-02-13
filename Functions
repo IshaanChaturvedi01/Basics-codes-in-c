@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    printf("Top");
+    Sayhi("mike",40);
+    Sayhi("tom",30);
+    Sayhi("oscar",20);
+    printf("bottom");
+    return 0;
+}
+void Sayhi(char name[], int age)
+{
+    printf("hello %s .you are %d.\n",name , age);
+}
