@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()                                  // for float or double as a function we use %lf in scanf. 
+ {                                          //for string %s is used.
+    int age;                                
+printf("Enter your age: ");
+scanf("%d", &age);
+printf("You are %d years old.",age);
+return 0;
+}
