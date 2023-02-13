@@ -9,3 +9,4 @@ int main()
     printf("he really liked the name %s\n",CharacterName);
     printf("but did not like bieng %d.\n", CharacterAge);
     return 0 ;
+}
