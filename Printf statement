@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int favNum=90;
+    char myChar='b';
+    printf("hello\"world");
+    printf(" \nmy favorite number is %d",500);
+        printf("\n my favorite %s is %d","number",500);
+            printf("\n my favorite no. is %f",500.9876);
+    printf("\n my favorite no. is %d",favNum);
+        printf(" my favorite %c is %d",myChar,favNum);
+    return 0;
+}
